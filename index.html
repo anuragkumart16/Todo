@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div class="container">
+        <div class="form">
+            <input type="text" name="Task" id="Task" placeholder="Enter The Task" class="input">
+            <select type="number" id="Priority" placeholder="Enter Priority" class="input">
+                <option value="select" selected>Select</option>
+                <option value="Urgent">Urgent</option>
+                <option value="Less Urgent">Less Urgent</option>
+                <option value="Can Be Done Later">Can Be Done Later</option>
+            </select>
+            <p class="message" id="message">Added To-Do List!</p>
+            <Button id="Submit">Submit</Button>
+
+        </div>
+    </div>
+    <div class="tasklist" id="tasklist">
+    </div>
+    <script type="module" src="script.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

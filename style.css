@@ -1,0 +1,90 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+}
+
+
+.container{
+    padding: 30px 30px;
+    border: 2px solid white;
+    width: fit-content;
+    background-color: #E5D4ED;
+    border-radius: 16px;
+    box-shadow: rgba(188, 188, 193, 0.1) 0px 4px 16px, rgba(190, 190, 195, 0.05) 0px 8px 32px;
+    margin-bottom: 10px;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form .input{
+    padding: 20px 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    width: 400px;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+
+.message{
+    color: #622A71;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    display: none;
+}
+
+button{
+    padding: 15px 15px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    background-color: #622A71;
+    color: white;
+    font-weight: 500;
+    transition: ease 0.6 background-color;
+}
+button:hover{
+    background-color: #2C1233;
+    transition: background-color ease 0.6;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    background-color:  #E5D4ED;
+    border: white 2px solid;
+    border-radius: 12px;
+    margin: 10px 0px;
+    padding: 20px 20px;
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+.card input{
+    width: 20px ;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.card p{
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: black;
+}
