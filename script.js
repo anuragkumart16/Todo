@@ -1,4 +1,4 @@
-import { taskref } from "../index.js";
+import { taskref } from "./index.js";
 import {
   push,
   onValue,
