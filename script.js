@@ -102,6 +102,7 @@ function Create_Card(id, text, isCompleted) {
 /* this is more like a channel which keeps the track if the data on the databse has changed and whenever it is changed it recalls the block of code written in it */
 onValue(taskref, function (snapShot) {
   const data = snapShot.val();
+  console.log(data)
   delItems();
   for (let element in data) {
     Create_Card(element, data[element].Task, data[element].IsCompleted);
